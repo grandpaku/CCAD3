@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NumberGuessingGame
+{
+	class Program
+	{
+		static void Main{string[] args}
+		{
+			String reply;
+			Console.WriteLine("Welcome to the Number Guessing Game!");
+			Console.WriteLine("Please think of a number between 1 and 100");
+      Console.WriteLine("Is your number even or odd?");
+			reply = Console.ReadLine();
+			if (reply.ToUpper == "EVEN")
+			{
+				Console.WriteLine("Yes Baby!");
+			}
+		}
+	}
+}

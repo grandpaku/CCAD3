@@ -1,0 +1,37 @@
+body {
+    background-image: url('ChildEating.jpg');
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px black;
+    
+}
+
+div.mainContainer {
+    background: #c546ff63;
+    width: 50%;
+    padding: 10px;
+}
+
+
+div.enterData {
+    margin: 10px 0px;
+    background: #c446ff93;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+
+div.enterData label {
+    width: 100px;
+    display: inline-block;
+}
+div.buttonContainer {
+    text-align: center;
+}
+
+div.buttonContainer button {
+    background: #000000;
+    color: rgb(73, 255, 246);
+    border: 0px;
+    padding: 8px 5px;
+    border-radius: 10px;
+}

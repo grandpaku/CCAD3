@@ -1,0 +1,28 @@
+body {
+    color: whitesmoke;
+    background-image: url('code_image.jpg');
+    margin: 0px;
+}
+
+div {
+    color : rgb(165, 91, 180);
+}
+
+nav {
+    color: #82eeca;
+}
+
+.fontsize18
+{
+    font-size: 18px;
+}
+
+
+/*
+    CSS Examples:
+    color: white;
+    font-size: 14px;
+    text-shadow: 0px 0px 5px black;
+    
+    
+*/
