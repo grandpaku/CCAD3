@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    background: url(background.jpg) no-repeat center center fixed; ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-gap: 93px;
+    grid-template-columns: 28% 28%;
+    box-sizing: border-box;
+    border: 3px solid;
+    align-content: space-evenly;    
+    background: rgba(255, 255, 255, 0.671);
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.one {
+    grid-column: 1 / 1;
+    grid-row: 1;
+}
+
+.two {
+   grid-column: 1 / 4;
+   grid-row: 1;
+}
+
+.three {
+   grid-column: 1 / 1;
+   grid-row: 2;
+}
+
+.four {
+   grid-column: 1 / 4;
+   grid-row: 2;
+}
+
+.name {
+    bottom:42%;
+    width:100%;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(248, 0, 0);
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+}
+
+.logo {
+    bottom:40%;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.img {
+    position: absolute;
+    display: block;
+    float: center;
+    height: auto;
+    width: 100%;
+    animation: animate 7s infinite;
+}
+
+p {
+    position: absolute;
+    height: 400px;
+    width: auto;
+    top: 80px;
+    left: -175px;
+}
+
+img {
+    position: absolute;
+    height: 60%;
+    width: auto;
+    top: 45%;
+    left: 35%;
+}
+
+@keyframes animate {
+    25% {
+        transform: rotateY(-180deg);
+    }
+    25% {
+        transform: rotateY(180deg);
+    }
+}
